@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background: white;
+}
+
+/* Jump Menu */
+#jumpMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 15%;
+    min-width: 180px;
+    height: 100vh;
+    background-color: #d9ab2a;
+    padding: 20px;
+    text-align: center;
+}
+
+#jumpMenu h2 {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+#jumpMenu a {
+    display: block;
+    margin: 25px 0;
+    font-size: 18px;
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Main */
+main {
+    margin-left: 15%;
+}
+
+/* Header */
+header {
+    font-family: Trebuchet MS, sans-serif;
+    background-color: red;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header p {
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 28px;
+}
+
+/* Header Nav */
+header nav {
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+header nav button {
+    background: blue;
+    color: white;
+    padding: 15px 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    font-size: 48px;
+    margin: 50px 0;
+}
+
+/* Articles Container */
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 0 80px;
+}
+
+/* Articles */
+#container article {
+    width: 300px;
+    font-family: Trebuchet MS, sans-serif;
+}
+
+article h2 {
+    font-size: 22px;
+}
+
+article p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+article a {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Thank You */
+#thanks {
+    position: fixed;
+    bottom: -36px;
+    right: 0px;
+    background: #8fd0f4;
+    border: black solid 1px;
+    font-size: 36px;
+    padding: 30px;
+}
+
+/* Footer */
+footer {
+    margin: 60px 80px;
+    font-size: 16px;
+}
